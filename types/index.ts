@@ -12,7 +12,7 @@ export interface Repository {
   description: string;
   language: string;
   forks_count: number;
-  watchers_count: number;
+  stargazers_count: number;
   topics: string[];
   updated_at: string;
 }
