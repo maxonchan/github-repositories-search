@@ -22,7 +22,7 @@ export default function SearchBar({
             setQuery(e.target.value);
           }}
           onKeyDown={(e) => {
-            if (e.key === "Enter") {
+            if (e.key === "Enter" && query.trim().length > 0) {
               onSearch(query);
             }
           }}
