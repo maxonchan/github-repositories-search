@@ -85,7 +85,7 @@ export default function Home() {
                     <div className="flex items-center gap-1 mr-4">
                       <span 
                         className="block w-2 h-2 rounded-full"
-                        style={{ backgroundColor: `#${languageColorMap[repo.language] || 'gray'}` }}
+                        style={{ backgroundColor: `#${languageColorMap[repo.language]}` || 'gray' }}
                       ></span>
                       <span>{repo.language}</span>
                     </div>
