@@ -45,7 +45,7 @@ export default function Pagination({
 
   return (
     <div className="flex justify-center mt-4 height-[32px]">
-      <ul className="flex">
+      <ul id="pager" className="flex">
         {pages.map((page, index) => (
           <li
             key={index}
