@@ -33,10 +33,10 @@ To get a local copy up and running, follow these steps:
 
 5. To build the project for production, run:
 	```bash
-  npm run build
-  npm start
-  ```
-6. To run the tests:
-  ```bash
-  npm run test
-  ```
+	npm run build
+	npm start
+	```
+6. To run tests, run:
+	```bash
+	npm run test
+	```
